@@ -1,0 +1,43 @@
+{
+  "name": "vue-coding-platform",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build --mode development",
+    "build:staging": "vue-tsc --noEmit && vite build --mode staging",
+    "build:prod": "vue-tsc --noEmit && vite build --mode production",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@zxing/browser": "^0.1.5",
+    "@zxing/library": "^0.21.3",
+    "axios": "^1.13.5",
+    "element-plus": "^2.10.7",
+    "marked": "^16.4.1",
+    "monaco-editor": "0.53.0",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1",
+    "vue3-qrcode-reader": "^0.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^24.5.2",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.4.5",
+    "@vue/tsconfig": "^0.7.0",
+    "rollup-plugin-visualizer": "^6.0.5",
+    "sass": "^1.97.2",
+    "sass-embedded": "^1.97.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-imagemin": "^0.6.1",
+    "vitest": "^2.0.5",
+    "vue-tsc": "^3.0.5"
+  }
+}
